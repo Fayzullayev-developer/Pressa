@@ -142,12 +142,6 @@ main {
     color: #000000;
 }
 
-.box__wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .card-title {
     max-width: 350px;
     font-weight: 600;
@@ -158,26 +152,25 @@ main {
 }
 
 .card-body {
-    padding: 20px 0px 31px 30px;
+    padding: 20px 0px 57px 30px;
 }
 
-.card__body-box {
-    display: flex;
-    align-items: center;
-    column-gap: 60px;
+.online {
+    padding-bottom: 38px;
 }
 
 .card__body-list {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    padding: 0;
+    margin: 0;
 }
 
 .card__body-item {
     display: flex;
     align-items: center;
     column-gap: 13px;
+    width: 100%;
 }
 
 .card__body-text {
@@ -206,10 +199,8 @@ main {
 
 /* reklama box */
 .reklama__box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-bottom: 129px;
+    width: 100%;
 }
 
 .reklama__left-box,
